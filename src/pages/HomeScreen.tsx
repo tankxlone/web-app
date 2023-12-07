@@ -58,6 +58,7 @@ const UserForm: React.FC<UserFormProps> = ({ onSubmit }) => {
       <TextField
         label="Name"
         name="name"
+        type="text"
         value={formData.name}
         onChange={handleChange}
         margin="normal"
@@ -68,6 +69,7 @@ const UserForm: React.FC<UserFormProps> = ({ onSubmit }) => {
       <TextField
         label="Phone"
         name="phone"
+        type="number"
         value={formData.phone}
         onChange={handleChange}
         margin="normal"
@@ -78,6 +80,7 @@ const UserForm: React.FC<UserFormProps> = ({ onSubmit }) => {
       <TextField
         label="Email"
         name="email"
+        type="email"
         value={formData.email}
         onChange={handleChange}
         margin="normal"
